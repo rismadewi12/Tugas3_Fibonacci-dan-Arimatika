@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(asset/temp.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    
+  }
+  .Container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    background:rgb(211, 208, 208);
+    padding: 80px;
+    width: 300px;
+    box-shadow: 0px 0px 15px 10p black;
+    border-radius: 15px;
+  }
+
+   .Container h2 {
+    text-align: center;
+    color:goldenrod;
+    font-size: 35px;
+    font-family:sans-serif;
+    letter-spacing: 3px;
+    padding-top: 0;
+    margin-top: -20px;
+  }
+
+  .Container label{
+    text-transform : uppercase;
+    font-family : sans-serif;
+    font-size : 15px;
+    font-weight : bold;
+    font-size: 15px;
+}
+  .Bilangan {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: gainsboro;
+    border: 2px solid blueviolet;
+    width:100%;
+    padding: 10px;
+    color:goldenrod;
+    font-size: 20px;
+    letter-spacing: 7px;
+    cursor: pointer;
+    margin: 10px 0 10px 10px;
+    }
+   .Tombol{
+       background-color: navy;
+       color: white;
+       border-bottom: 0;
+       border-left: 0;
+       border-right:0;
+       border-bottom: 3px solid #2a80b9;
+       padding: 10px 20px;
+       text-decoration: none;
+       font-family: sans-serif;
+       font-size: 15pt;
+   }
+  
+  .Bilangan input {
+    width: 85%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color:black;
+    font-size: 18px;
+  }
+  .Bilangan input::placeholder {
+    color:white;
+  }
+  .bottom{
+      text-align: right;
+      font-size: 15px;
+      margin-top: 10px;
+  }
+  
+
+    
